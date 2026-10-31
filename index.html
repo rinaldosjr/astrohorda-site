@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Astro Horda</title>
+<meta name="description" content="Astro Horda: sobreviva à horda e evolua a nave. Um jogo de nave neon no estilo survivors para iPhone.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root { --texto: #eef0ff; --suave: #a3a8c7; --fundo: #050517; --cartao: #12122a;
+           --borda: #2a2a4a; --ciano: #33e6ff; --rosa: #ff40bf; --roxo: #b380ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: var(--texto);
+          background: radial-gradient(1200px 600px at 50% -10%, #2a1660 0%, var(--fundo) 60%) fixed, var(--fundo);
+          font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  nav { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; margin-bottom: 8px; }
+  nav a { color: var(--ciano); text-decoration: none; font-weight: 600;
+           border: 1px solid var(--borda); border-radius: 999px; padding: 4px 14px; }
+  header { text-align: center; padding: 24px 0 8px; }
+  header img { width: 132px; height: 132px; border-radius: 30px;
+                box-shadow: 0 0 40px rgba(51, 230, 255, .35); }
+  h1 { font-size: 2.6em; line-height: 1.1; margin: 18px 0 4px; letter-spacing: -.02em;
+        background: linear-gradient(180deg, var(--ciano), var(--rosa));
+        -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lema { color: var(--suave); font-weight: 600; margin: 0 0 8px; }
+  section { background: var(--cartao); border: 1px solid var(--borda);
+             border-radius: 18px; padding: 8px 24px 20px; margin: 24px 0; }
+  h2 { font-size: 1.15em; margin: 22px 0 6px; color: var(--roxo); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .selo { display: inline-block; margin-top: 8px; padding: 6px 14px; border-radius: 999px;
+           border: 1px solid var(--ciano); color: var(--ciano); font-weight: 700; font-size: .9em; }
+  footer { text-align: center; color: var(--suave); font-size: .9em; }
+  a { color: var(--ciano); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#pt">Português</a><a href="#en">English</a></nav>
+<header>
+  <img src="icon.png" alt="Ícone do Astro Horda">
+  <h1>Astro Horda</h1>
+  <p class="lema">Sobreviva à horda. Evolua a nave.</p>
+  <span class="selo">iPhone · Beta no TestFlight</span>
+</header>
+
+<section id="pt" lang="pt-BR">
+<h2>O jogo</h2>
+<p>Astro Horda é um jogo de nave no estilo "survivors", com visual de monitor vetorial neon. Você só pilota com um dedo, e as armas atiram sozinhas. Ondas cada vez maiores de asteroides e naves inimigas chegam de todos os lados. A cada nível, escolha uma melhoria entre três. Aguente seis minutos e enfrente a Matriarca, a nave-mãe da horda.</p>
+<h2>Destaques</h2>
+<ul>
+  <li><strong>16 melhorias</strong> comuns, raras e lendárias: mísseis teleguiados, satélites, arco voltaico, pulso nova, fragmentação, Fúria Estelar…</li>
+  <li><strong>Inimigos variados</strong>: asteroides que se partem, caças velozes, sentinelas que atiram e brutos blindados.</li>
+  <li><strong>Partidas rápidas</strong> de 5 a 7 minutos, com um chefe final.</li>
+  <li>Controle de um dedo só, que nunca cobre a nave.</li>
+  <li>Visual neon, trilha synthwave e vibração a cada explosão.</li>
+  <li>Sem anúncios, sem contas e sem coleta de dados.</li>
+</ul>
+<h2>Suporte</h2>
+<p>Dúvidas ou sugestões: <a href="mailto:rinaldosjr@gmail.com">rinaldosjr@gmail.com</a> · <a href="privacy.html">Política de Privacidade</a></p>
+</section>
+
+<section id="en" lang="en">
+<h2>The game</h2>
+<p>Astro Horda is a "survivors"-style space shooter with the look of a neon vector monitor. You only steer with one finger, and your weapons fire on their own. Ever bigger waves of asteroids and enemy ships come from every side. Pick one of three upgrades at each level. Last six minutes and face the Matriarch, the mothership of the horde.</p>
+<h2>Highlights</h2>
+<ul>
+  <li><strong>16 upgrades</strong> across common, rare and legendary tiers: homing missiles, satellites, arc lightning, nova pulse, shrapnel, Star Fury…</li>
+  <li><strong>Varied enemies</strong>: splitting asteroids, fast darts, shooting sentinels and armored brutes.</li>
+  <li><strong>Quick runs</strong> of 5 to 7 minutes, with a final boss.</li>
+  <li>One-finger controls that never cover the ship.</li>
+  <li>Neon visuals, a synthwave soundtrack and haptics on every explosion.</li>
+  <li>No ads, no accounts and no data collection.</li>
+</ul>
+<h2>Support</h2>
+<p>Questions or ideas: <a href="mailto:rinaldosjr@gmail.com">rinaldosjr@gmail.com</a> · <a href="privacy.html#en">Privacy Policy</a></p>
+</section>
+
+<footer>© 2026 Rinaldo Santos Junior</footer>
+</main>
+</body>
+</html>
